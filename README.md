@@ -8,7 +8,7 @@ This repository contains the public static snapshot of [blog.shipwatcher.com](ht
 - `site/postmap.json`, `site/p/index.html`, and `site/_redirects` preserve the numeric `/p/<id>` destinations used by `nbe.me/s/<id>` shortlinks.
 - `site/404.html` is the static not-found page.
 - `scripts/prepare_export.py` applies repeatable fixes after copying a fresh full Staatic export.
-- `wrangler.jsonc` configures the Cloudflare preview and static asset directory. The live domain must only be added after preview approval.
+- `wrangler.jsonc` configures the static asset directory and both approved live hostnames: `blog.shipwatcher.com` and `www.blog.shipwatcher.com`.
 
 ## Refreshing the site
 
