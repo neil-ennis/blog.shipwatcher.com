@@ -2,6 +2,10 @@
   "name": "blog-shipwatcher-com",
   "compatibility_date": "2026-10-16",
   "workers_dev": true,
+  "routes": [
+    { "pattern": "blog.shipwatcher.com", "custom_domain": true },
+    { "pattern": "www.blog.shipwatcher.com", "custom_domain": true }
+  ],
   "assets": {
     "directory": "./site",
     "not_found_handling": "404-page",
