@@ -1,0 +1,4 @@
+/p/:id /p/?id=:id 302
+/about-me/ /about/ 301
+/about/about-me/ /about/ 301
+/index.php/* /:splat 301
